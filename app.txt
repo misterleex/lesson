@@ -1,3 +1,20 @@
 git add 000.txt : 올림
-git commit -m 
-git git git
+git commit -m "메시지" : 스테이징
+git log --all --oneline : 파일 목록 체크(파일이름 있음)
+git status : 상태 체크
+
+git difftool : 
+git difftool 파일이름 : > > 확장프로그램에 있어서 사용안함
+
+git push : 원격서버에 전송
+branch : 원본 살려놓고 테스트 복사본만드는 과정
+
+git branch 사본명  > git switch 사본명
+
+git switch 파일명 : 메인과 다른파일 변경 가능... 
+
+git log --oneline --all --graph : 변경사항 일괄 확인
+
+{브랜치를 원본에 합치는 작업}
+1. git switch main
+2. git merge 사본명 (근데 동일 줄에서 수정이 일어날시 컴퓨터 충돌 발생함)conflict ending...
