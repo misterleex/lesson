@@ -90,6 +90,8 @@ push 전
 git stash 
 git stash list
 git stash save "메모' : list시키면 내용을 알 수 있음.
+git stash drop 번호 : 해당 번호만 삭제
+git stash clear : 완전삭제
 
 git stash pop(스테시 된 내용을 불러옴)
 
