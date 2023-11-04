@@ -96,6 +96,12 @@ git stash pop(스테시 된 내용을 불러옴)
 
 src refspec master does not match any 
 
-git에서 pull 없이 push 할때 원격저장소의 메인파일과 로컬저장소 파일이 틀려서 발생한다고함??
+git에서 pull 없이 push 할때 원격저장소의 메인파일과 로컬저장소 파일이 틀려서 발생하므로
+1. git pull origin 또는 git pull
+2. 파일 변경부분 수정하고
+3. git push
 
-암튼 새로 init 하고 푸시하면 됨
+마스터 브랜치가 없을때는
+
+git checkout -b 'master'
+
