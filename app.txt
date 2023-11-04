@@ -79,4 +79,11 @@ git push -u (주소) main 입력
 (상남자 전략 trunk-based)
 메인 한가닥에서 필요한것만 브랜치 내서 합치는 전략 > 빠르나 문제가 많을 수 있다.
 
+[git stash 임시저장]
+push 전
 
+git stash 
+git stash list
+git stash save "메모' : list시키면 내용을 알 수 있음.
+
+git stash pop(스테시 된 내용을 불러옴)
