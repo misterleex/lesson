@@ -11,3 +11,4 @@ branch : 원본 살려놓고 테스트 복사본만드는 과정
 
 git branch 사본명  > git switch 사본명
 
+git switch 파일명 : 메인과 다른파일 변경 가능... 
