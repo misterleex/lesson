@@ -1,2 +1,2 @@
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-bbbbbbbbbbbbbbbbbb
+git add 000.txt : ¿Ã¸²
+git commit -m 
