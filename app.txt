@@ -17,4 +17,15 @@ git log --oneline --all --graph : 변경사항 일괄 확인
 
 {브랜치를 원본에 합치는 작업}
 1. git switch main
-2. git merge 사본명 (근데 동일 줄에서 수정이 일어날시 컴퓨터 충돌 발생함)conflict ending...
+2. git merge 사본명 (근데 동일 줄에서 수정이 일어날시 컴퓨터 충돌 발생함)conflict ending > 원하는 것 선택
+3. git add . > git commit -m '000'
+
+여러명이 만들시 원본 만들고 > 브랜치 따서 > 머지 시킴
+
+원본에 합치는 방식 : git merge --no-ff
+
+사본에 통일시키는 방식 : fast-forword merge(?)
+
+git branch -d 사본명 : 브랜치 삭제
+git rebase & merge  : 간단한브랜치를 원본으로 합치는 방식으로 깔끔하다. / 단점 : 컨플릭트가 자주 발생함
+
