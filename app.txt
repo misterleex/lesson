@@ -1,2 +1,3 @@
 git add 000.txt : ¿Ã¸²
 git commit -m 
+git git git
