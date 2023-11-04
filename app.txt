@@ -12,3 +12,9 @@ branch : 원본 살려놓고 테스트 복사본만드는 과정
 git branch 사본명  > git switch 사본명
 
 git switch 파일명 : 메인과 다른파일 변경 가능... 
+
+git log --oneline --all --graph : 변경사항 일괄 확인
+
+{브랜치를 원본에 합치는 작업}
+1. git switch main
+2. git merge 사본명 (근데 동일 줄에서 수정이 일어날시 컴퓨터 충돌 발생함)conflict ending...
