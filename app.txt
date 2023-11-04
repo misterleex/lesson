@@ -22,10 +22,25 @@ git log --oneline --all --graph : 변경사항 일괄 확인
 
 여러명이 만들시 원본 만들고 > 브랜치 따서 > 머지 시킴
 
-원본에 합치는 방식 : git merge --no-ff
+합치는 방식 : git merge --no-ff
 
-사본에 통일시키는 방식 : fast-forword merge(?)
+원본에 통일시키는 방식 : fast-forword merge(?)
 
 git branch -d 사본명 : 브랜치 삭제
 git rebase & merge  : 간단한브랜치를 원본으로 합치는 방식으로 깔끔하다. / 단점 : 컨플릭트가 자주 발생함
+
+git merge --squash : 리베이스와 비슷하나 곁다리 브랜치를 다 삭제하고 원본 브랜치만 남기는 작업
+메인 로그만 남고 나머지 로그는 삭제시킴 / 비쥬얼적인 영역이다.
+3way merge : 중요한 가지는 남겨놓는 방식
+
+[복구/시점이동]
+
+git restore 파일명 (마지막 커밋상태로 복구)
+git restore --staged 파일명 (스티이징 취소)
+
+git revert 파일아이디 (복구, 취소 가능)
+
+git reset --hard 파일아이디 (완벽 리셋/ 협업 할때는 쓰면 안됨)
+git reset --soft 파일아이디 (리셋은 되나 이후 파일들은 스테이징 상태로 남아있음)
+git reset --mixed 파일아이디(리셋은 리셋인데 기존 파일 남아있음)
 
