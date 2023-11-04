@@ -87,3 +87,10 @@ git stash list
 git stash save "메모' : list시키면 내용을 알 수 있음.
 
 git stash pop(스테시 된 내용을 불러옴)
+
+
+src refspec master does not match any 
+
+git에서 pull 없이 push 할때 원격저장소의 메인파일과 로컬저장소 파일이 틀려서 발생한다고함??
+
+암튼 새로 init 하고 푸시하면 됨
